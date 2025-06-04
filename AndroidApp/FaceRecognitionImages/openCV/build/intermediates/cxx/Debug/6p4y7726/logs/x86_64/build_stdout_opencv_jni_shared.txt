@@ -1,2 +1,0 @@
-ninja: Entering directory `C:\work\study\Year4\Project\andriodApp\FaceRecognitionImagesStarter2024\openCV\.cxx\Debug\6p4y7726\x86_64'
-ninja: no work to do.
