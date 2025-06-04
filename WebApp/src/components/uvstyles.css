@@ -1,0 +1,211 @@
+/* Filename - App.css */
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Kanit", sans-serif;
+}
+
+.body1 {
+    min-height: 100vh;
+    min-width: 100%;
+    background: #fcf8ed;
+    background-image: url("./image/bg.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } 
+
+  .headtext {
+    width: 80%;
+    font-size: 20px;
+    padding-top: 20px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+  }
+
+  .name {
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #f8e6bd;
+    border-radius: 40px;
+    display: flex;
+  }
+
+  .subheading::before {
+    content: "\2022";
+    margin-right: 5px;
+  }
+
+  .classpic {
+    width: 47%;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .classbox {
+    /* padding-left: 20px; */
+    width: 45%;
+    margin-top: 20px;
+  }
+
+  .twoside {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1%;
+  }
+
+  /* .box{
+    background-color: rgb(163, 163, 175);
+    border-radius: 100px;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    display: grid; 
+    place-items: center;
+  } */
+
+  .box {
+    /* background-color: rgb(163, 163, 175); */
+    border-radius: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .box label {
+    text-align: center;
+    /* margin-top: 10px; */
+  }
+
+  label{
+    display: flex;
+  }
+
+  /* uvstyle.css */
+.body1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.headtext {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.twoside {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.classpic {
+  width: 40%;
+}
+
+.classbox {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* .box {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+} */
+
+@media screen and (max-width: 768px) {
+  .body1 {
+    padding: 10px;
+  }
+  .classpic {
+    width: 80%;
+  }
+  .classbox {
+    width: 100%;
+  }
+}
+
+@media (max-width: 824px) {
+  .twoside {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .classbox {
+    order: 2;
+    margin-top: 10%;
+  }
+
+  .classpic {
+    order: 1;
+    width: 100%;
+  }
+
+  .classpic label {
+    align-items: center;
+  }
+
+  .box {
+    border-radius: 80px;
+  }
+}
+
+@media (max-width: 500px) {
+  .twoside {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .classbox {
+    order: 2;
+    margin-top: 10%;
+  }
+
+  .classpic {
+    order: 1;
+    width: 100%;
+  }
+
+  .classpic label {
+    font-size: 12px !important;
+    align-items: center;
+  }
+
+  .box {
+    border-radius: 80px;
+  }
+}
+
+.cen{
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}

@@ -1,0 +1,135 @@
+/* Filename - App.css */
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.body {
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    align-items: center;
+    justify-content: center;
+    justify-content: right;
+    background: #fcf8ed;
+    flex-direction: column;
+    /* background-image: url("../image/bg.png");justify-content: space-around; */
+  
+  }
+
+.graph{
+    width: 60%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    /* background: #F5E7C6;
+    border-radius: 20px; */
+}
+
+.graphname {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #f8e6bd;
+  border-radius: 20px;
+  display: flex;
+}
+  
+
+.myChart{
+    width: 50%;
+    height: 200px;
+}
+
+element.style {
+    width: 200px;
+    height: 100px;
+    display: block;
+    box-sizing: border-box;
+}
+
+canvas.myChart{
+    width: 400px;
+    height: 200px;
+}
+
+h1 {
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  margin-top: '20px';
+  margin-bottom: '7px';
+}
+
+#date, #month, #year {
+  font-size: 18px;
+  border-radius: 11px;
+
+}
+
+select {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+label{
+  font-size: 19px;
+  margin-right: 3px;
+}
+
+.topbar {
+  width: 100%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .graph {
+    width: 80%;
+  }
+  h1 {
+    font-size: medium;
+  }
+  label {
+    font-size: 16px !important;
+  }
+  select {
+    font-size: 17px !important;
+    margin-right: 10px !important;
+  }
+  .graphname {
+    padding-top: 5px;
+  padding-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .graph {
+    width: 95%;
+    height: 40%;
+  }
+  h1 {
+    font-size: medium;
+  }
+  label {
+    font-size: 13px !important;
+  }
+  select {
+    font-size: 14px !important;
+    margin-right: 5px !important;
+  }
+  .graphname {
+    padding-top: 2px;
+  padding-bottom: 2px;
+  }
+}

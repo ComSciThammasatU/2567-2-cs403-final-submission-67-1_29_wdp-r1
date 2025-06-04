@@ -1,0 +1,257 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+.bodyLogin * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.bodyLogin {
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
+  align-items: center;
+  background: #fcf8ed;
+  background-image: url("./image/bg.png");justify-content: space-around;
+
+}
+.context{
+  position: relative;
+  max-width: 370px;
+  width: 370px;
+  padding: 25px;
+  border-radius: 8px;
+  float: right;
+  align-items: right;
+  justify-content: right;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  left: 3%;
+}
+.context header {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+.concam{
+  position: relative;
+  max-width: 40%;
+  width: 40%;
+  padding: 25px;
+  border-radius: 8px;
+  float: right;
+  align-items: right;
+  justify-content: right;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: auto;
+  padding-top: 11%;
+  padding-left: 11%;
+  padding-bottom: 11%;
+  padding-right: 11%;
+  
+}
+.container {
+  position: relative;
+  max-width: 370px;
+  width: 370px;
+  padding: 25px;
+  border-radius: 8px;
+  float: right;
+  align-items: right;
+  justify-content: right;
+  right: 3%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+.container header {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+.container form {
+  margin-top: 10px;
+}
+.bodyLogin form .field {
+  margin-bottom: 25px;
+}
+.bodyLogin form .input-field {
+  position: relative;
+  height: 55px;
+  width: 100%;
+}
+.bodyLogin .input-field input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 0 15px;
+  border: 1px solid #d1d1d1;
+}
+.bodyLogin .form-control {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 0 15px;
+    border: 1px solid #d1d1d1;
+    width: 370px;
+  }
+
+/* input{
+  position: relative;
+  height: 55px;
+  width: 100%;
+} */
+
+.MuiInputBase-input  {
+    background: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 0 15px;
+    border: 1px solid #d1d1d1;
+    font-family: "Poppins", sans-serif;
+  }
+
+.MuiTextField-root {
+    background: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 0 15px;
+    border: 1px solid #d1d1d1;
+    font-family: "Poppins";
+  }
+
+
+  .bodyLogin .input-border {
+    border-color: #3E68A8 !important;
+    border-radius: 8px;
+}
+
+.MuiFormLabel-root.Mui-focused {
+  color: #757575 !important;
+  border-radius: 8px;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #757575 !important;
+  border-radius: 8px;
+}
+
+ 
+
+  #fixInputSize{
+    font-family: Poppins;
+    font-size: 11px;
+  }
+
+.invalid input {
+  border-color: #d93025;
+}
+.bodyLogin .input-field .show-hide {
+  position: absolute;
+  right: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #919191;
+  cursor: pointer;
+  padding: 3px;
+}
+.field .error {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+  color: #d93025;
+  font-size: 13px;
+  display: none;
+}
+.invalid .error {
+  display: flex;
+}
+.error .error-icon {
+  margin-right: 6px;
+  font-size: 15px;
+}
+.create-password .error {
+  align-items: flex-start;
+}
+.create-password .error-icon {
+  margin-top: 4px;
+}
+.bodyLogin .button {
+  margin: 25px 0 6px;
+}
+.bodyLogin .button input {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #FFB545;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.bodyLogin .button input:hover {
+  background-color: #0e4bf1;
+}
+
+.bodyLogin h1 {
+  font-weight: "fontWeightBold";
+  font-size: 4em;
+}
+
+.bodyLogin input.custom {
+  accent-color: #FFB545;
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+span.MuiTypography-root.MuiFormControlLabel-label.MuiTypography-body1 {
+  font-size: 0.8rem;
+}
+
+.textright{
+  width: 100%;
+  position: relative;
+  align-items: right;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.textright text{
+  position: relative;
+  align-items: right;
+  font-size: 0.8rem;
+  right: 5px;
+
+}
+
+.roomfac{
+  max-width: 370px;
+  width: 370px;
+  padding: 25px;
+    
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-adornedEnd.css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root{
+  border-radius: 8px;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root{
+  border-radius: 8px;
+}

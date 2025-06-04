@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Kanit", sans-serif;
+  }
+
+  .body {
+    min-height: 100vh;
+    min-width: 100%;
+    background: #fcf8ed;
+    background-image: url("./image/bg.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .name {
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #f8e6bd;
+    border-radius: 40px;
+    display: flex;
+  }
+
+  .subheading::before {
+    content: "\2022";
+    margin-right: 5px;
+  }
+
+  .classpic {
+    width: 35%;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .classbox {
+    /* padding-left: 20px; */
+    width: 30%;
+    margin-top: 20px;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .threeside {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1%;
+  }
+
+  .box {
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .box label {
+    text-align: center;
+    /* margin-top: 10px; */
+  }
+
+  .headtext {
+    width: 80%;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+    text-align: justify;
+  }
+
+.cen{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cen label{
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+
+  @media (max-width: 825px) {
+    .threeside {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .classpic {
+      order: -1;
+      margin-bottom: 20px;
+      width: 80%;
+      height: 20%;
+    }
+  
+    .classbox {
+      width: 100%;
+    }
+  
+    .classpic label {
+      font-size: 15px !important;
+      align-items: center;
+    }
+
+    .classpic img {
+        height: 5%;
+    }
+  
+    .box {
+      border-radius: 80px;
+    }
+  }
