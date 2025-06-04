@@ -1,0 +1,116 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+.bodyVerify {
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    align-items: center;
+    background: #fcf8ed;
+    background-image: url("./image/bg.png");
+    justify-content: space-around;
+    justify-content: center;
+
+}
+
+.containerVerify {
+    background-color: white;
+    position: relative;
+    max-width: 370px;
+    width: 370px;
+    padding: 25px;
+    border-radius: 8px;
+    float: right;
+    align-items: center;
+    justify-content: right;
+    right: 3%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    align-items: center;
+  }
+  .containerVerify header {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+  }
+  .containerVerify form {
+    margin-top: 10px;
+  }
+
+  .containerVerify p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+}
+
+.bodyVerify .input-field {
+    margin-top: 20px;
+}
+
+.bodyVerify .button {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #FFB545;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+.bodyVerify button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FFB545;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    cursor: pointer;
+    height: 55px;
+}
+
+.bodyVerify .input-field input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 0 15px;
+    border: 1px solid #d1d1d1;
+  }
+
+.bodyVerify button:hover {
+    background-color: #ff8c00;
+}
+
+.bodyVerify .button input {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #FFB545;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+.bodyVerify form .input-field {
+    position: relative;
+    height: 55px;
+    width: 100%;
+  }
+
+.bodyVerify a {
+    color: #FFB545;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+
+.bodyVerify a:hover {
+    color: #ff8c00;
+}
