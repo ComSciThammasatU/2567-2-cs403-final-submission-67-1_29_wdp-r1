@@ -53,13 +53,13 @@ Manual / Instructions
 10. เมื่อสร้างสำเร็จแล้ว เลือกไปที่ `Stack details` และเลือก `Outputs`
 11. ใน **Key** ชื่อ `APIGatewayURL` มี **Value** เป็น Endpoint ของ ApiGateway อยู่ ให้คัดลอกและบันทึกไว้
 
-### **การใช้งานอุปกรณ์ IoT**
+### **การติดตั้งโปรแกรมอุปกรณ์ IoT**
   
 1. เปิดโฟลเดอร์ **Arduino/reconnectiot** ในโปรแกรม **Arduino IDE**
 2. เชื่อมต่อสาย USB สำหรับเบิร์นโค้ดลงอุปกรณ์ แล้วเลือก **Upload** ในโปรแกรม
 3. เมื่ออุปกรณ์เริ่มทำงานให้เปิด Serial monitor เพื่อดู Log ที่ได้จากอุปกรณ์ บันทึกเลข IP address ของเซิร์ฟเวอร์ของอุปกรณ์ ที่แสดงใน Serial monitor ไว้
 
-### **การใช้งาน Android Application ใน Android Emulator**
+### **การติดตั้ง Android Application**
 1. เปิดโฟลเดอร์ **AndroidApp/FaceRecognitionImages** ในโปรแกรม **Android Studio**
 2. Build โปรเจคที่นำเข้ามา
 3. เปิดไฟล์ในโปรแกรมชื่อ `RecognitionActivity.java`
@@ -69,7 +69,7 @@ Manual / Instructions
 7. เมื่อสร้างสำเร็จแล้วเลือก `Run app`
 8. Emulator จะถูกเปิดขึ้นและโปรแกรมจะถูกเปิดภายใน Emulator
 
-### **การใช้งาน Web Application**
+### **การติดตั้ง Web Application**
 1. เปิดโฟลเดอร์ **WebApp** ใน **Visual Studio Code**
 2. เปิดไฟล์ในโปรแกรมชื่อ `getDataAndSaveToLocal`
 3. ในบรรทัดที่ 7 และ 8 ให้เติม `accessKeyId` และ `secretAccessKey` ด้วย acceskey ที่บันทึกไว้ตอนสร้าง Users ในเซอร์วิส IAM ใส่ `region` เป็น region ของ AWS ที่ใช้งานในปัจจุบัน
