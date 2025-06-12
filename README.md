@@ -72,7 +72,7 @@ Manual / Instructions
 ### **การติดตั้ง Web Application**
 1. เปิดโฟลเดอร์ **WebApp** ใน **Visual Studio Code**
 2. เปิดไฟล์ในโปรแกรมชื่อ `getDataAndSaveToLocal`
-3. ในบรรทัดที่ 7 และ 8 ให้เติม `accessKeyId` และ `secretAccessKey` ด้วย acceskey ที่บันทึกไว้ตอนสร้าง Users ในเซอร์วิส IAM ใส่ `region` เป็น region ของ AWS ที่ใช้งานในปัจจุบัน
+3. ในบรรทัดที่ 7 และ 8 ให้เติม `accessKeyId` และ `secretAccessKey` ด้วย accesskey ที่บันทึกไว้ตอนสร้าง Users ในเซอร์วิส IAM ใส่ `region` เป็น region ของ AWS ที่ใช้งานในปัจจุบัน
 4. เปิด Terminal ในโปรแกรมและพิมพ์คำสั่ง `npm start`
 5. โปรแกรมจะถูกเปิดผ่าน `http://localhost:3000`
 6. ทดลองเปลี่ยน path เป็น `http://localhost:3000/Mainpage`
