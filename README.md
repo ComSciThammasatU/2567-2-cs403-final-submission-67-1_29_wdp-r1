@@ -65,7 +65,7 @@ Manual / Instructions
 3. เปิดไฟล์ในโปรแกรมชื่อ `RecognitionActivity.java`
 4. ในบรรทัดที่ 568 `esp32Ip = ""` ให้ใส่ IP ของอุปกรณ์ IoT ที่บันทึกไว้
 5. ในบรรทัดที่ 883 `String urlString = "https://gtvy8h0687.execute-api.us-east-1.amazonaws.com/dev/testesp32/" + filename;` ให้แก้ไข `https://gtvy8h0687.execute-api.us-east-1.amazonaws.com/dev/` เป็น **Endpoint** ของ **ApiGateway** ที่บันทึกไว้
-6. สร้าง Emulator ตั้งค่าเป็น API 32 ขึ้นไป และ Android 12L ("Sv2") ขึ้นไปและเป็น x86_64 
+6. สร้าง Emulator ตั้งค่าเป็น API 32 และ Android 12L ("Sv2") | x86_64 
 7. เมื่อสร้างสำเร็จแล้วเลือก `Run app`
 8. Emulator จะถูกเปิดขึ้นและโปรแกรมจะถูกเปิดภายใน Emulator
 
