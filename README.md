@@ -37,7 +37,7 @@ Manual / Instructions
    * สร้าง Access keys และกำหนด Permission ให้ Users ที่สร้าง จากนั้นบันทึก `accessKeyId` และ `secretAccessKey` ไว้
 
 ## ขั้นตอนการติดตั้งโปรแกรมของโครงงาน
- **Clone git repository ไปยังเครื่องที่จะใช้รันโปรแกรม**
+ **Clone git repository ไปยังเครื่องที่จะใช้รันโปรแกรม** ด้วยคำสั่ง `git clone`
 
 ### **การสร้างเซอร์วิสของ AWS ผ่าน CloudFormation Template**
 
