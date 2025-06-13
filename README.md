@@ -73,9 +73,14 @@ Manual / Instructions
 1. เปิดโฟลเดอร์ **WebApp** ใน **Visual Studio Code**
 2. เปิดไฟล์ในโปรแกรมชื่อ `getDataAndSaveToLocal`
 3. ในบรรทัดที่ 7 และ 8 ให้เติม `accessKeyId` และ `secretAccessKey` ด้วย accesskey ที่บันทึกไว้ตอนสร้าง Users ในเซอร์วิส IAM ใส่ `region` เป็น region ของ AWS ที่ใช้งานในปัจจุบัน
-4. เปิด Terminal ในโปรแกรมและพิมพ์คำสั่ง `npm start`
-5. โปรแกรมจะถูกเปิดผ่าน `http://localhost:3000`
-6. ทดลองเปลี่ยน path เป็น `http://localhost:3000/Mainpage`
-7. ลองใช้งานโปรแกรม
+4. เข้าไปที่หน้า Console ของ S3 แล้วคัดลอกชื่อของ S3 bucket ที่ถูกสร้างโดย Template แล้วบันทึกไว้ ซึ่งจะมีชื่อว่า `esp32imagedata-<เลขฐาน16>` และไปที่หน้า Console ของ Amazon DynamoDB แล้วคัดลอกชื่อของ Tables ที่ถูกสร้างโดย Template ซึ่งจะมีชื่อว่า `esp32sensordata__` และ `RekogData__` บันทึกไว้
+5. ในบรรทัดที่ 19 `Bucket: "esp32cam-image-data",` ให้เปลี่ยนชื่อ Bucket เป็นชื่อที่ถูกสร้างโดย template
+6. ในบรรทัดที่ 19 `url: https://esp32cam-image-data.s3.us-east-1.amazonaws.com/${obj.Key},` ให้เปลี่ยน `esp32cam-image-data` เป็นชื่อ Bucket ที่ถูกสร้างโดย template
+7. ในบรรทัดที่ 33 `const tableNames = ["esp32sensordata", "RekogData"];` ให้เปลี่ยน `["esp32sensordata", "RekogData"]` เป็นชื่อ Tables ที่ถูกสร้างโดย template
+8. จากนั้น Save file
+9. เปิด Terminal ในโปรแกรมและพิมพ์คำสั่ง `npm start`
+10. โปรแกรมจะถูกเปิดผ่าน `http://localhost:3000`
+11. ทดลองเปลี่ยน path เป็น `http://localhost:3000/Mainpage`
+12. ลองใช้งานโปรแกรม
 
 **หลังจากติดตั้งโปรแกรมเรียบร้อยแล้ว ทดลองใช้งานโปรแกรมตาม Pipeline โดยการใช้อุปกรณ์ถ่ายภาพ จากนั้นภาพจะถูกส่งมาประมวลผลที่ Android Application แล้วถูกส่งไปจัดเก็บยังเซอร์วิสบน AWS แล้วลองค้นหารูปภาพผ่าน Web Application**
